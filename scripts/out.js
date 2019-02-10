@@ -86,14 +86,14 @@
 /************************************************************************/
 /******/ ({
 
-/***/ "./node_modules/css-loader/index.js?url=false!./node_modules/sass-loader/lib/loader.js!./style.scss":
-/*!*************************************************************************************************!*\
-  !*** ./node_modules/css-loader?url=false!./node_modules/sass-loader/lib/loader.js!./style.scss ***!
-  \*************************************************************************************************/
+/***/ "./node_modules/css-loader/index.js?url=false!./node_modules/sass-loader/lib/loader.js!./scss/main.scss":
+/*!*****************************************************************************************************!*\
+  !*** ./node_modules/css-loader?url=false!./node_modules/sass-loader/lib/loader.js!./scss/main.scss ***!
+  \*****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("exports = module.exports = __webpack_require__(/*! ./node_modules/css-loader/lib/css-base.js */ \"./node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.i, \"*, *::after, *::before {\\n  margin: 0;\\n  padding: 0;\\n  box-sizing: border-box; }\\n\", \"\"]);\n\n// exports\n\n\n//# sourceURL=webpack:///./style.scss?./node_modules/css-loader?url=false!./node_modules/sass-loader/lib/loader.js");
+eval("exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/lib/css-base.js */ \"./node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.i, \"/*\\n    SkyApp Boostrap Sass Theme\\n    Version: 0.0.1\\n*/\\n/* BASE - Base styles, variables, mixins, etc */\\n/* MODULES - Individual site components */\\n/* LAYOUTS - Page layout styles */\\n\", \"\"]);\n\n// exports\n\n\n//# sourceURL=webpack:///./scss/main.scss?./node_modules/css-loader?url=false!./node_modules/sass-loader/lib/loader.js");
 
 /***/ }),
 
@@ -138,18 +138,18 @@ eval("\n/**\n * When source maps are enabled, `style-loader` uses a link element
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\n__webpack_require__(/*! ../style.scss */ \"./style.scss\");\n\n//# sourceURL=webpack:///./scripts/app.js?");
+eval("\n\n__webpack_require__(/*! ../scss/main.scss */ \"./scss/main.scss\");\n\n//# sourceURL=webpack:///./scripts/app.js?");
 
 /***/ }),
 
-/***/ "./style.scss":
-/*!********************!*\
-  !*** ./style.scss ***!
-  \********************/
+/***/ "./scss/main.scss":
+/*!************************!*\
+  !*** ./scss/main.scss ***!
+  \************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("\nvar content = __webpack_require__(/*! !./node_modules/css-loader?url=false!./node_modules/sass-loader/lib/loader.js!./style.scss */ \"./node_modules/css-loader/index.js?url=false!./node_modules/sass-loader/lib/loader.js!./style.scss\");\n\nif(typeof content === 'string') content = [[module.i, content, '']];\n\nvar transform;\nvar insertInto;\n\n\n\nvar options = {\"hmr\":true}\n\noptions.transform = transform\noptions.insertInto = undefined;\n\nvar update = __webpack_require__(/*! ./node_modules/style-loader/lib/addStyles.js */ \"./node_modules/style-loader/lib/addStyles.js\")(content, options);\n\nif(content.locals) module.exports = content.locals;\n\nif(false) {}\n\n//# sourceURL=webpack:///./style.scss?");
+eval("\nvar content = __webpack_require__(/*! !../node_modules/css-loader?url=false!../node_modules/sass-loader/lib/loader.js!./main.scss */ \"./node_modules/css-loader/index.js?url=false!./node_modules/sass-loader/lib/loader.js!./scss/main.scss\");\n\nif(typeof content === 'string') content = [[module.i, content, '']];\n\nvar transform;\nvar insertInto;\n\n\n\nvar options = {\"hmr\":true}\n\noptions.transform = transform\noptions.insertInto = undefined;\n\nvar update = __webpack_require__(/*! ../node_modules/style-loader/lib/addStyles.js */ \"./node_modules/style-loader/lib/addStyles.js\")(content, options);\n\nif(content.locals) module.exports = content.locals;\n\nif(false) {}\n\n//# sourceURL=webpack:///./scss/main.scss?");
 
 /***/ })
 
