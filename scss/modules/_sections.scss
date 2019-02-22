@@ -1,0 +1,15 @@
+/* Sections */
+
+.section-showcase {
+    height: $showcase-height;
+    background: url($showcase-image) no-repeat top center;
+
+    .showcase-content {
+        padding: 110px 15px;
+        text-align: center;
+    }
+
+    h1 {
+        color: $primary-color;
+    }
+}
