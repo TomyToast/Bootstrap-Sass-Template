@@ -13,6 +13,7 @@ ul.list {
     li {
         line-height: 3.6em;
         @include add-border(1px, #cccccc, bottom);
+        overflow: auto !important;
     }
 
     li:last-child {
