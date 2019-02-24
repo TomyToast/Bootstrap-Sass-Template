@@ -29,3 +29,15 @@
     @extend .block;
     @include add-background($dark-color);
 }
+
+.block-center {
+    text-align: center !important;
+}
+
+.block-image img {
+    width: 100%;
+}
+
+.block-border {
+    @include add-border(1px, #ccc, all);
+}
